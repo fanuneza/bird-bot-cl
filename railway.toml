@@ -1,0 +1,6 @@
+[deploy]
+startCommand = "node index.js"
+
+[[crons]]
+schedule = "0 13 * * *"
+command = "node index.js"
