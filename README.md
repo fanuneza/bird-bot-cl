@@ -28,7 +28,7 @@ bird-bot-cl/
 ├── birds.json        # dataset (see credits below)
 ├── sent.json         # auto-generated, tracks sent bird IDs
 ├── .env              # secrets, never committed
-├── .env.bak          # env variable reference (no real values)
+├── .env.example      # env variable reference (no real values)
 ├── .gitignore
 ├── railway.toml      # cron config for Railway
 └── package.json
@@ -42,9 +42,9 @@ npm install
 ```
 
 ### 2. Configure environment
-Copy `.env.bak` to `.env` and fill in your real values:
+Copy `.env.example` to `.env` and fill in your real values:
 ```bash
-cp .env.bak .env
+cp .env.example .env
 ```
 
 ```env
