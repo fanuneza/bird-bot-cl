@@ -4,6 +4,7 @@
   "description": "Simple WhatsApp bot with daily facts about Chilean birds based on NinjasCL/chileanbirds-dataset",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
