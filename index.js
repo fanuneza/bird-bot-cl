@@ -3,7 +3,7 @@ const fs = require("fs");
 const twilio = require("twilio");
 
 const DATA_FILE = "./birds.json";
-const SENT_FILE = "./sent.json";
+const SENT_FILE = `${process.env.RAILWAY_VOLUME_PATH ?? "."}/sent.json`;
 const LIVE_API = "https://aves.ninjas.cl/api/birds";
 
 const client = twilio(
